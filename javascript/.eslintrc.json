@@ -26,7 +26,7 @@
             }
         ],
         // NOTE: Normally, consoles should be warning or (in a deployable setting) even errors
-        "no-console": ["warn"],
+        // "no-console": ["error"],
         "no-param-reassign": ["error", { "props": false }],
         "prefer-destructuring": [ "error", { "object": true, "array": true }],
         "quotes": ["error", "single"],

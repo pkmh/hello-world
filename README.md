@@ -7,7 +7,7 @@ I'm creating this repo as a sort of public sandbox. Essentially, I'm trying to b
 As a quick note, I am starting this on February 3 2023 on a M2 Max MacBook Pro using MacOS Ventura 13.2 - as such, some of these instructions and notes will be specific to MacOS and/or my machine. I'll try to keep install instructions as generic as possible, but if you are not using MacOS please take special care and use your best judgement.
 
 ## Local Env Setup
-Since I am doing this on a brand new machine, I will also include some system setup instructions that match my current preferences
+Since this is a "Hello, World!" repo, I'll also include some env recommendations
 
 1. [Install iTerm2](https://iterm2.com/)
 2. [Install Git & Configure your Credentials](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
