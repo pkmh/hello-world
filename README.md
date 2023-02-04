@@ -16,7 +16,7 @@ Since I am doing this on a brand new machine, I will also include some system se
 2. [Install Git & Configure your Credentials](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 3. [Install VSCODE as an editor](https://code.visualstudio.com/)
     - Launch the app and pick a them by going to `Settings > Theme > Color Theme`. Personally I like "Solarized Dark"
-    - Install the "GitLens" extension in VSCode itself
+    - Install the "GitLens" extension
     ```
         Name: GitLens — Git supercharged
         Id: eamodio.gitlens
@@ -25,7 +25,7 @@ Since I am doing this on a brand new machine, I will also include some system se
         Publisher: GitKraken
         VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
     ```
-    - Install the "Code Spell Checker" extension in VSCode itself
+    - Install the "Code Spell Checker" extension
     ``` 
         Name: Code Spell Checker
         Id: streetsidesoftware.code-spell-checker
