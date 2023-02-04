@@ -11,8 +11,24 @@
         "sourceType": "module"
     },
     "rules": {
+        "brace-style": ["error", "1tbs"],
+        "curly": ["error", "all"],
         "indent": ["error", "tab"],
         "linebreak-style": ["error", "unix"],
+        "max-len": [
+            "error", 
+            120, 
+            { 
+                "ignoreComments": true,
+                "ignoreUrls": true,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true
+            }
+        ],
+        // NOTE: Normally, consoles should be warning or (in a deployable setting) even errors
+        "no-console": ["warn"],
+        "no-param-reassign": ["error", { "props": false }],
+        "prefer-destructuring": [ "error", { "object": true, "array": true }],
         "quotes": ["error", "single"],
         "semi": ["error", "always"]
     }
