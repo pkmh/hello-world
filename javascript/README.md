@@ -7,17 +7,17 @@
 - [Misc](#misc)
 
 ## Basics
-(1) To start, install the latest LTS version of `"Node.js"` via the [official Node installer](https://nodejs.org/en/) & follow the prompts.
-    (a) _Technically_ you can stop here. Although, the next two steps are important fundamentals for Node.js in my opinion. 
-(2) Looking at this file directory, you will see a `package.json` file. You can think of this as the control center of a javascript project - it defines all of the necessary information about the project, as well as necessary dependencies & commands that can be run using NPM (i.e. Node Package Manager).
-    (a) This is unnecessary for this project, but if you are creating a new project simply do the following in terminal: 
+1. To start, install the latest LTS version of `"Node.js"` via the [official Node installer](https://nodejs.org/en/) & follow the prompts.
+    a. _Technically_ you can stop here. Although, the next two steps are important fundamentals for Node.js in my opinion. 
+2. Looking at this file directory, you will see a `package.json` file. You can think of this as the control center of a javascript project - it defines all of the necessary information about the project, as well as necessary dependencies & commands that can be run using NPM (i.e. Node Package Manager).
+    a. This is unnecessary for this project, but if you are creating a new project simply do the following in terminal: 
         - `mkdir <project-name>` => creates a new directory using the project name you specify
         - `cd <project-name>`    => move into that directory within your terminal window
         - `npm run init`         => creates a new Node.js project. NPM will walk you through this, just follow the prompts
-    (b) Additionally, you will see a `package-lock` file which is essentially used for tracking dependency changes
-(3) You'll also notice a `.eslintrc.json` file. ESLint is essentially a tool that programmers can configure and customize to make sure their JavaScript code meets certain stylistic and quality requirements. Many people publish their eslint configurations online, so you can always use a published config rather than making your own.
-    (a) This is unnecessary for this project, but if you are creating a new project & you want to create your own eslint config, simply run `npm init @eslint/config` and follow the prompts.
-    (b) More information can also be found [here](https://eslint.org/docs/latest/use/getting-started)
+    b. Additionally, you will see a `package-lock` file which is essentially used for tracking dependency changes
+3. You'll also notice a `.eslintrc.json` file. ESLint is essentially a tool that programmers can configure and customize to make sure their JavaScript code meets certain stylistic and quality requirements. Many people publish their eslint configurations online, so you can always use a published config rather than making your own.
+    a. This is unnecessary for this project, but if you are creating a new project & you want to create your own eslint config, simply run `npm init @eslint/config` and follow the prompts.
+    b. More information can also be found [here](https://eslint.org/docs/latest/use/getting-started)
 
 ## Commands
 Before doing anything, ensure you have a terminal window open in this directory. Then, run `npm i` to install the dependencies specified in the `package.json` file & corresponding lock file.
