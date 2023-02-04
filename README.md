@@ -6,9 +6,6 @@ I'm creating this repo as a sort of public sandbox. Essentially, I'm trying to b
 
 As a quick note, I am starting this on February 3 2023 on a M2 Max MacBook Pro using MacOS Ventura 13.2 - as such, some of these instructions and notes will be specific to MacOS and/or my machine. I'll try to keep install instructions as generic as possible, but if you are not using MacOS please take special care and use your best judgement.
 
-## Table of Contents
-- [JavaScript](javascript/README.md)
-
 ## Local Env Setup
 Since I am doing this on a brand new machine, I will also include some system setup instructions that match my current preferences
 
@@ -34,3 +31,6 @@ Since I am doing this on a brand new machine, I will also include some system se
         Publisher: Street Side Software
         VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
     ```
+
+## Table of Contents
+- [JavaScript](javascript/README.md)

@@ -19,6 +19,22 @@
     - This is unnecessary for this project, but if you are creating a new project & you want to create your own eslint config, simply run `npm init @eslint/config` and follow the prompts.
     - [Airbnb has published their ESLint config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) and while it's overkill for most personal projects, it's a great example of rigorous ESLint rules 
     - More information on ESLint can also be found [here](https://eslint.org/docs/latest/use/getting-started)
+    - I *HIGHLY* recommend installing this ESLint extension:
+    ```
+    Name: ESLint
+    Id: dbaeumer.vscode-eslint
+    Description: Integrates ESLint JavaScript into VS Code.
+    Version: 2.2.6
+    Publisher: Microsoft
+    VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+    ```
+    Once installed, this will give you real-time updates about ESLint errors and warnings. Next, you'll just need to update a setting in VSCode to attempt to auto-fix eslint errors when saving. In the app, simply go to `Code > Settings` and search `"editor.codeActionsOnSave"`. This should prompt you to edit a `settings.json` file, please do so & update it such that the `"source.fixAll.eslint": true` line is included inside the `"editor.codeActionsOnSave"` object like so:
+    ```
+    "editor.codeActionsOnSave": {
+        <!-- Don't delete anything or add anything besides the next line -->
+        "source.fixAll.eslint": true
+    }
+    ```
 
 ## Commands
 Before doing anything, ensure you have a terminal window open in this directory. Then, run `npm i` to install the dependencies specified in the `package.json` file & corresponding lock file.
