@@ -49,9 +49,9 @@ _I_CYAN="106m"
 _I_WHITE="107m"
 # -----------------------------------------------------------------------------
 
-echo "${TXT}${RED}Hello, World!${RESET}"
-echo "${TXT}${YELLOW}Hello, World!${RESET}"
-echo "${TXT}${GREEN}Hello, World!${RESET}"
-echo "${TXT}${BLUE}Hello, World!${RESET}"
-echo "${TXT}${PURPLE}Hello, World!${RESET}"
+echo "${BOLD}${I_RED}Hello, World!${RESET}"
+echo "${BOLD}${I_YELLOW}Hello, World!${RESET}"
+echo "${BOLD}${I_GREEN}Hello, World!${RESET}"
+echo "${BOLD}${I_BLUE}Hello, World!${RESET}"
+echo "${BOLD}${I_PURPLE}Hello, World!${RESET}"
 exit 0
