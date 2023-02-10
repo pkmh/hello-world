@@ -49,6 +49,8 @@ _I_CYAN="106m"
 _I_WHITE="107m"
 # -----------------------------------------------------------------------------
 
+# NOTE: You can mix and match these modifiers if you follow the formula:
+#       `${<text-modifier>}${<color-modifier>}Hello, World!${RESET}`
 echo "${BOLD}${I_RED}Hello, World!${RESET}"
 echo "${BOLD}${I_YELLOW}Hello, World!${RESET}"
 echo "${BOLD}${I_GREEN}Hello, World!${RESET}"
