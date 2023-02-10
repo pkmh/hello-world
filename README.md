@@ -54,5 +54,5 @@ Since this is a "Hello, World!" repo, I'll also include some env recommendations
 <!-- TODO: ROS -->
 <!-- TODO: Rust -->
 <!-- TODO: Scala -->
-- [Shell](shell/README.md)
+- [Shell (Bash/Zsh)](shell/README.md)
 <!-- TODO: TypeScript -->
