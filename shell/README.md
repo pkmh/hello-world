@@ -7,13 +7,13 @@ The first thing any programmer should learn about is how to effectively use thei
 - [Misc](#misc)
 
 ## Basics
-The Shell is a CLI (command line interface). Basically, it's a power-user user tool that enables users to give their operating system direct commands. As such, it's not a programming language in the traditional sense, but it's incredibly versatile/powerful and can be used to accomplish many traditional programming tasks. 
+The "shell" is just a CLI (command line interface). Basically, it's a power-user user tool that enables users to give their operating system direct commands. As such, it's not a programming language in the traditional sense, but it's incredibly versatile/powerful and can be used to accomplish many traditional programming tasks. 
 
 Before creating or running any shell programs, you should know how to navigate and interact with your filesystem. Oftentimes files/directories are referenced relative to some position:
 ```
- .   => references the current directory.
- ..  => references the parent directory.
- ~   => references the home directory of the user currently logged in. It's a shortcut of sorts.
+ .   => references the current directory
+ ..  => references the parent directory
+ ~   => references the home directory of the user currently logged in. It's a shortcut of sorts
 ```
 
 As for some basic commands, you can combine the next examples with the previous ones:
@@ -29,9 +29,9 @@ From here you can either make a shell script from scratch, or call one of the ex
 2. Simply call the script using `./hello.sh` or `./rainbow-hello.sh` depending on whichever script you want to invoke
 
 Assuming you chose the former option instead, let's create your first shell script! Luckily, it's pretty straightforward.
-1. Make a new script with a `.sh` extension.
-2. Add the following comment to the top of that new file: `# !/usr/bin/env bash`. This enables the script you are writing to actually execute bash commands.
-3. Fill the script with the bash commands you want to be executed.
+1. Make a new script with a `.sh` extension
+2. Add the following comment to the top of that new file: `# !/usr/bin/env bash`. This enables the script you are writing to actually execute bash commands
+3. Fill the script with the bash commands you want to be executed
 4. You're almost ready to execute your shell script! All you have to do tell your OS that it's an executable by updating the file permissions. This can be done using chmod - `chmod u+x <file-path>/<file-name>.sh`
 5. Now you can just call the script using the same steps as before! `cd` into the right directory, and call the script in terminal using `./<script-name>.sh`
 
