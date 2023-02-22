@@ -13,6 +13,7 @@ Since this is a "Hello, World!" repo, I'll also include some env recommendations
 2. [Install Git & Configure your Credentials](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 3. [Install VSCODE as an editor](https://code.visualstudio.com/)
     - Launch the app and pick a them by going to `Settings > Theme > Color Theme`. Personally I like "Solarized Dark"
+    - Within the app, hit `Command Shift P` to open the `"Command Palette"`. Type `shell command` and elect to `Install 'code' command in PATH`. This will enable you to launch VSCode from iTerm2 by typing `code .` or `code <path-to>/<project-name>` (Note: you will likely need to grant admin access for this)
     - Install the "GitLens" extension
     ```
         Name: GitLens — Git supercharged
@@ -33,4 +34,25 @@ Since this is a "Hello, World!" repo, I'll also include some env recommendations
     ```
 
 ## Table of Contents
+<!-- TODO: C -->
+<!-- TODO: C# -->
+<!-- TODO: C++ -->
+<!-- TODO: Clojure -->
+<!-- TODO: COBOL -->
+<!-- TODO: Elm -->
+<!-- TODO: Elixir/Erlang -->
+<!-- TODO: Go -->
+<!-- TODO: Haskell -->
+<!-- TODO: Java -->
 - [JavaScript](javascript/README.md)
+<!-- TODO: Kotlin -->
+<!-- TODO: Lisp -->
+<!-- TODO: Perl -->
+<!-- TODO: Prolog -->
+<!-- TODO: Python -->
+<!-- TODO: R -->
+<!-- TODO: ROS -->
+<!-- TODO: Rust -->
+<!-- TODO: Scala -->
+- [Shell (Bash/Zsh)](shell/README.md)
+<!-- TODO: TypeScript -->
