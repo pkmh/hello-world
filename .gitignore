@@ -1,2 +1,4 @@
 # ignore JS depenedencies
 javascript/node_modules
+# ignore TS dependencies
+typescript/node_modules
