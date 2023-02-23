@@ -55,4 +55,4 @@ Since this is a "Hello, World!" repo, I'll also include some env recommendations
 <!-- TODO: Rust -->
 <!-- TODO: Scala -->
 - [Shell (Bash/Zsh)](shell/README.md)
-<!-- TODO: TypeScript -->
+- [TypeScript](typescript/README.md)
