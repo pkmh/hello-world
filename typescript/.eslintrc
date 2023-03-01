@@ -10,9 +10,12 @@
       "plugin:@typescript-eslint/recommended"
     ],
     "rules": {
+        "arrow-spacing": ["error", { "before" : true, "after" : true  }],
+        "block-spacing": ["error", "always"],
         "brace-style": ["error", "1tbs"],
         "curly": ["error", "all"],
         "indent": ["error", "tab"],
+        "keyword-spacing": ["error", { "before" : true, "after" : true  }],
         "linebreak-style": ["error", "unix"],
         "max-len": [
             "error", 
@@ -27,6 +30,7 @@
         // NOTE: Normally, consoles should be warning or (in a deployable setting) even errors
         // "no-console": ["error"],
         "no-param-reassign": ["error", { "props": false }],
+        "object-curly-spacing": ["error", "always"],
         "prefer-destructuring": [ "error", { "object": true, "array": true }],
         "quotes": ["error", "single"],
         "semi": ["error", "always"]
