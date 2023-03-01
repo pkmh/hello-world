@@ -8,5 +8,36 @@
       "eslint:recommended",
       "plugin:@typescript-eslint/eslint-recommended",
       "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "brace-style": ["error", "1tbs"],
+        "curly": ["error", "all"],
+        "indent": ["error", "tab"],
+        "linebreak-style": ["error", "unix"],
+        "max-len": [
+            "error", 
+            120, 
+            { 
+                "ignoreComments": true,
+                "ignoreUrls": true,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true
+            }
+        ],
+        // NOTE: Normally, consoles should be warning or (in a deployable setting) even errors
+        // "no-console": ["error"],
+        "no-param-reassign": ["error", { "props": false }],
+        "prefer-destructuring": [ "error", { "object": true, "array": true }],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"]
+    },
+    "overrides": [
+        {
+            "files": ["*.ts"],
+            "rules": {
+                // NOTE: Allows you to assign types to constants
+                "@typescript-eslint/no-inferrable-types": "off"
+              }
+        }
     ]
   }
