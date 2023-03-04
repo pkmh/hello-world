@@ -1,7 +1,7 @@
 {
   "name": "hello-world",
   "version": "1.0.0",
-  "description": "The typescript version of \"Hello, World!\" (in a Node project) ",
+  "description": "The TypeScript version of \"Hello, World!\" (in a Node project) ",
   "main": "hello.ts",
   "scripts": {
     "hello": "npx tsnd hello.ts",
