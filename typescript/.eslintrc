@@ -1,0 +1,47 @@
+{
+    "root": false,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "arrow-spacing": ["error", { "before" : true, "after" : true  }],
+        "block-spacing": ["error", "always"],
+        "brace-style": ["error", "1tbs"],
+        "curly": ["error", "all"],
+        "indent": ["error", "tab"],
+        "keyword-spacing": ["error", { "before" : true, "after" : true  }],
+        "linebreak-style": ["error", "unix"],
+        "max-len": [
+            "error", 
+            120, 
+            { 
+                "ignoreComments": true,
+                "ignoreUrls": true,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true
+            }
+        ],
+        // NOTE: Normally, consoles should be warning or (in a deployable setting) even errors
+        // "no-console": ["error"],
+        "no-param-reassign": ["error", { "props": false }],
+        "object-curly-spacing": ["error", "always"],
+        "prefer-destructuring": [ "error", { "object": true, "array": true }],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"]
+    },
+    "overrides": [
+        {
+            "files": ["*.ts"],
+            "rules": {
+                // NOTE: Allows you to assign types to constants
+                "@typescript-eslint/no-inferrable-types": "off"
+              }
+        }
+    ]
+  }

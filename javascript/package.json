@@ -1,8 +1,8 @@
 {
   "name": "hello-world",
   "version": "1.0.0",
-  "description": "The Node.js version of \"Hello, World!\" ",
-  "main": "index.js",
+  "description": "The JavaScript version of \"Hello, World!\" (in a Node project) ",
+  "main": "hello.js",
   "scripts": {
     "hello": "node hello.js",
     "lint": "eslint .",
