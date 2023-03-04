@@ -17,7 +17,7 @@
     - Additionally, you will see a `package-lock` file which is essentially used for tracking dependency changes
 3. You'll also notice a `.eslintrc.json` file. ESLint is essentially a tool that programmers can configure and customize to make sure their JavaScript code meets certain stylistic and quality requirements. Many people publish their eslint configurations online, so you can always use a published config rather than making your own.
     - This is unnecessary for this project, but if you are creating a new project & you want to create your own eslint config, simply run `npm init @eslint/config` and follow the prompts.
-    - [Airbnb has published their ESLint config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) and while it's overkill for most personal projects, it's a great example of rigorous ESLint rules 
+    - [Airbnb has published their ESLint config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) and while it's overkill for most personal projects, it's a great example of rigorous ESLint rules. Personally, I view this as a jumping off point - I would want to use different rules, but every developer/organization has their own preferences 
     - Also, I *HIGHLY* recommend installing this ESLint extension:
     ```
     Name: ESLint
