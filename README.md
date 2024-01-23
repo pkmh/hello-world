@@ -43,7 +43,7 @@ Since this is a "Hello, World!" repo, I'll also include some env recommendations
 <!-- TODO: COBOL -->
 <!-- TODO: Elm -->
 <!-- TODO: Elixir/Erlang -->
-<!-- TODO: Go -->
+- [Go](go/README.md)
 <!-- TODO: Haskell -->
 <!-- TODO: Java -->
 - [JavaScript](javascript/README.md)
