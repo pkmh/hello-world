@@ -8,19 +8,18 @@
 
 ## Basics
 1. To start, install the latest supported version [here](https://go.dev/doc/install). As of writing this, the latest version is 1.21.6
-2. Next, we need to compile the GoLang file that is provided in this repo. you can do that by running:
-```
-go mod init hello
-```
-(Technically this is already done as the `go.mod` file is committed in Git, but compilation is an important step when making changes)
-3. That _should_ do the trick! You can run the hello world program in this directory by simply using this command in terminal: 
+2. That _should_ do the trick! You can run the hello world program in this directory by simply using this command in terminal: 
 ```
 go run .
 ```
-4. For more info, check out the [GO docs](https://go.dev/doc/tutorial/getting-started)
-5. For EVEN MORE info, join Educative.io and do this [extended tutorial on GoLang](https://www.educative.io/path/golang-for-programmers). I was new to the language and found it very helpful (as with most skillpaths I find on Educative). If I quote something/someone in this README and I don't explicitly attribute said quote, it's coming directly from that skillpath.
+3. For more info, check out the [GO docs](https://go.dev/doc/tutorial/getting-started)
+4. For EVEN MORE info, join Educative.io and do this [extended tutorial on GoLang](https://www.educative.io/path/golang-for-programmers). I was new to the language and found it very helpful (as with most skillpaths I find on Educative). If I quote something/someone in this README and I don't explicitly attribute said quote, it's coming directly from that skillpath.
 
 ## Commands
+For new Go scripts/mains, you'll need to generate a `go.mod` file so they can be run. This is already done in this example, but it can be done by running:
+```
+go mod init ${path/to/file-name}
+```
 To check that the install was successful/your Go version:
 ```
 go version
