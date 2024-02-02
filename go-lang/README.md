@@ -39,4 +39,5 @@ go help
     - "Support for network communication, concurrency, and parallelization"
     - "Support for excellent building speed"
     - "Support for memory management"
-- The names of things in Go should be short and descriptive. If necessary, TitleCase or camelCase is used when naming things
+- "The names of things in Go should be short and descriptive. If necessary, TitleCase or camelCase is used when naming things"
+    - Personally, I disagree with this methodology even if its more memory efficient. Self documenting variables/functions make a BIG difference for me when maintaining any software  
